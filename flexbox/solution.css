@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.child {
+  flex-basis: 100%;
+}
+
+.child-1 {
+  height: 60px;
+  background: red;
+}
+
+.child-2 {
+  height: 600px;
+  background: orange;
+  flex-grow: 1;
+  flex-basis: auto;
+}
+
+.child-3 {
+  height: 600px;
+  background: yellow;
+  flex-grow: 2;
+  flex-basis: auto;
+}
+
+.child-4 {
+  height: 600px;
+  background: mediumseagreen;
+  flex-grow: 1;
+  flex-basis: auto;
+}
+
+.child-5 {
+  height: 60px;
+  background: dodgerblue;
+}
