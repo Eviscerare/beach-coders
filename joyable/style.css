@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto;
+}
+
+.request-button {
+  padding: 1em;
+  background: #F56961;
+  border-radius: 2px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+
+  color: white;
+}
