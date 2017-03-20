@@ -4,21 +4,39 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+
+  background: white;
   z-index: 1;
 }
 
-header a {
-  padding: 10px;
-  margin: 0 25px;
-  text-decoration: none;
-  color: #F56961;
-}
-
-.top-nav {
+.top-nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+
+.top-link {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 100%;
+}
+
+.top-link a {
+  padding: 10px;
+  margin: 0 25px;
+  border: 1px solid #FFFFFF;
+  border-radius: 2px;
+
+  transition: 0.25s;
+  
+  text-decoration: none;
+  color: #F56961;
+}
+
+.top-link:hover a:not(.logo) {
+  border: 1px solid #F56961;
 }
 
 .logo {
@@ -32,22 +50,7 @@ header a {
   color: rgba(245, 105, 61, 0.55);
 }
 
-.top-link {
-  display: inline;
-}
-
-.top-link a {
-  border: 2px solid #FFFFFF;
-  border-radius: 2px;
-  transition: 0.25s;
-}
-
-.top-link:hover a {
-  border: 2px solid #F56961;
-  border-radius: 2px;
-}
-
 .vertical-line {
-  height: 22px;
+  height: 40px;
   border-left: 1px solid #E5E5E5;
 }
