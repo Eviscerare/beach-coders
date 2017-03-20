@@ -7,6 +7,77 @@ body {
   font-family: Roboto;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+header a {
+  padding: 10px;
+  margin: 0 25px;
+  text-decoration: none;
+  color: #F56961;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.logo {
+  font-family: Sofia;
+  font-size: 40px;
+  text-transform: lowercase;
+  transition: 0.25s;
+}
+
+.logo:hover {
+  color: rgba(245, 105, 61, 0.55);
+}
+
+.top-link {
+  display: inline;
+}
+
+.top-link a {
+  border: 2px solid #FFFFFF;
+  border-radius: 2px;
+  transition: 0.25s;
+}
+
+.top-link:hover a {
+  border: 2px solid #F56961;
+  border-radius: 2px;
+}
+
+.vertical-bar {
+  height: 22px;
+  border-left: 1px solid #E5E5E5;
+}
+
+.hero {
+  margin-top: 100px;
+  padding: 100px;
+}
+
+.hero h1 {
+  max-width: 750px;
+  color: #F56961;
+  font-size: 3em;
+  font-weight: 100;
+}
+
+.hero h3 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
 .request-button {
   padding: 1em;
   background: #F56961;
@@ -14,4 +85,10 @@ body {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 
   color: white;
+}
+
+@media screen and (max-width: 750px) {
+  .hero h1 {
+    font-size: 2em;
+  }
 }
