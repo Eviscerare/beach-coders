@@ -54,3 +54,7 @@ header {
   height: 40px;
   border-left: 1px solid #E5E5E5;
 }
+
+@media (max-width: 750px) {
+  
+}
