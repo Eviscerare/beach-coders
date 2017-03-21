@@ -38,14 +38,16 @@ a {
 .toplink {
   display: flex;
   align-items: center;
-  border: 1px solid #FFFFFF;
-  border-radius: 2px;
 
   transition: 0.1s;
 }
 
+.toplink {
+  border-top: 4px solid #FFFFFF;
+}
+
 .toplink:hover {
-  border: 1px solid #3F8654;
+  border-top: 4px solid #3F8654;
 }
 
 .topnav {
@@ -78,6 +80,11 @@ a {
 
   .toplink {
     margin: 0 25px;
+    border-bottom: 4px solid #FFFFFF;
+  }
+
+  .toplink:hover {
+    border-bottom: 4px solid #3F8654;
   }
 
   .topnav.responsive {
