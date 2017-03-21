@@ -1,6 +1,7 @@
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: fixed;
   top: 0;
   width: 100%;
@@ -19,9 +20,32 @@ a {
   text-decoration: none;
 }
 
+.logo {
+  display: inline;
+  margin-left: 15px;
+  margin-top: -10px;
+  padding: 10px;
+  background: #444444;
+}
+
+.logo::before {
+  content: '';
+  position: absolute;
+  padding: 10px;
+  background: #3F8654;
+}
+
 .toplink {
   display: flex;
   align-items: center;
+  border: 1px solid #FFFFFF;
+  border-radius: 2px;
+
+  transition: 0.1s;
+}
+
+.toplink:hover {
+  border: 1px solid #3F8654;
 }
 
 .topnav {
@@ -41,15 +65,18 @@ a {
   .topnav {
     flex-direction: column;
     position: absolute;
-    right: 0;
-    top: -250px;
+    width: 200px; height: 100vh;
+    right: -250px; top: 50px;
+    z-index: 1;
     background: #FFFFFF;
-    visibility: hidden;
+  }
+
+  .toplink {
+    margin: 0 25px;
   }
 
   .topnav.responsive {
-    top: 50px;
-    visibility: visible;
+    right: 0px;
   }
 
   .menu {
