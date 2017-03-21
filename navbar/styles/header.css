@@ -1,0 +1,58 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  background: #FFFFFF;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  padding: 15px;
+
+  color: #3F8654;
+  text-decoration: none;
+}
+
+.toplink {
+  display: flex;
+  align-items: center;
+}
+
+.topnav {
+  display: flex;
+  transition: 0.5s;
+}
+
+.dropdownnav {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .topnav {
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: -250px;
+    background: #FFFFFF;
+    visibility: hidden;
+  }
+
+  .topnav.responsive {
+    top: 50px;
+    visibility: visible;
+  }
+
+  .menu {
+    display: inline;
+  }
+}
