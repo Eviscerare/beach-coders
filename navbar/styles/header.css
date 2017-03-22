@@ -5,6 +5,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%; height: 50px;
+  box-shadow: 1px 1px 5px #444444;
 
   background: #FFFFFF;
 }
@@ -64,6 +65,7 @@ a {
   margin: 15px;
   width: 17px;
   padding: 1.90px;
+  z-index: 5;
   border-top: 4px solid #444444;
   border-bottom: 11.5px double #444444;
 }
@@ -73,7 +75,9 @@ a {
     flex-direction: column;
     position: absolute;
     width: 200px; height: 100vh;
-    right: -250px; top: 50px;
+    right: -250px; top: 0;
+    padding-top: 50px;
+    box-shadow: 1px 1px 5px #444444;
     z-index: 1;
     background: #FFFFFF;
   }
