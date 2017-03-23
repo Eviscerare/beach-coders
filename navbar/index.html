@@ -5,32 +5,59 @@
   <title>Navbar</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="style.css" rel="stylesheet">
+  <link href="styles/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script src="scripts/main.js"></script>
 </head>
 
 <body>
   <header>
-    <a class="logo" href="#">Logo</a>
+    <a class="logo" href="#"></a>
     <nav>
-      <ul class="top-nav">
-
-        <li class="top-link hoverable">
-          <a>Link 1</a>
-          <div class="dropdown">
-            <ul>
-              <li><a>Drop 1</a></li>
-              <li><a>Drop 2</a></li>
+      <ul class="topnav">
+        <li class="toplink dropdownlink">
+          <a href="#">Link 1</a>
+          <nav>
+            <ul class="dropdownnav">
+              <li><a href="#">Drop 1</a></li>
+              <li><a href="#">Drop 2</a></li>
             </ul>
+          </nav>
         </li>
-
-        <li class="top-link"><a>Link 2</a></li>
-        <li class="top-link"><a>Link 3</a></li>
-        <li class="top-link"><a>Link 4</a></li>
-        <li class="hamburger"><a>9776;</a></li>
+        <li class="toplink"><a href="#">Link 2</a></li>
+        <li class="toplink"><a href="#">Link 3</a></li>
+        <li class="toplink"><a href="#">Link 4</a></li>
       </ul>
     </nav>
+    <a class="menu" href="#" onclick="toggleMenu()"></a>
   </header>
 
+  <div class="content">
+    <div>
+      <h1>Heading</h1>
+      Some section content goes here.
+      <div>
+        <h2>Sub Heading</h2>
+        Some sub content here.
+      </div>
+      <div>
+        <h2>Sub Heading</h2>
+        Some sub content here.
+      </div>
+    </div>
+    <div>
+      <h1>Heading</h1>
+      Some section content goes here.
+    </div>
+    <div>
+      <h1>Heading</h1>
+      Some section content goes here.
+    </div>
+    <div>
+      <h1>Heading</h1>
+      Some section content goes here.
+    </div>
+  </div>
 </body>
 
 </html>

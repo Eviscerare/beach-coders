@@ -1,0 +1,21 @@
+@import 'header.css';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  background: #e5e5e5;
+}
+
+.content div {
+  margin-bottom: 400px;
+}
