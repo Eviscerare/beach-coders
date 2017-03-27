@@ -5,5 +5,26 @@
 
 #root {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  width: 275px;
+}
+
+form div:not(:last-child) {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+form div:last-child {
+  margin: 5px;
+  float: right;
+}
+
+abbr {
+  color: red;
 }
