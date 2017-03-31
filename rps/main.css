@@ -11,17 +11,12 @@
   height: 100vh;
 }
 
-.options {
-  display: flex;
-  justify-content: center;
-  width: 100%;
+img {
+  margin: 32px; padding: 8px;
+  width: 128px; height: 128px;
+  border: 2px solid white;
 }
 
-.option {
-  display: flex;
-  justify-content: center;
-  margin: 25px;
-  padding: 15px;
-  width: 250px;
-  border: 1px solid red;
+#winner {
+  color: white;
 }

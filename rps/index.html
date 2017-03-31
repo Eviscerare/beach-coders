@@ -9,11 +9,27 @@
   </head>
   <body>
     <div id="root">
-      <div class="options">
-        <a class="option" onclick="handleClick(event)">Rock</a>
-        <a class="option" onclick="handleClick(event)">Paper</a>
-        <a class="option" onclick="handleClick(event)">Scissors</a>
+
+      <h1 id="computer">Computer</h1>
+      <div>
+        <a><img id="c0" src="images/rock.png"></a>
+        <a><img id="c1" src="images/paper.png"></a>
+        <a><img id="c2" src="images/scissors.png"></a>
       </div>
+
+      <div>
+        <a onclick="handleClick(event)">
+          <img id="0" src="images/rock.png">
+        </a>
+        <a onclick="handleClick(event)">
+          <img id="1" src="images/paper.png">
+        </a>
+        <a onclick="handleClick(event)">
+          <img id="2" src="images/scissors.png">
+        </a>
+      </div>
+      <h1 id="player">Player</h1>
+
     </div>
   </body>
 </html>
