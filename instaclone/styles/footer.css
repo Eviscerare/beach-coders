@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+  position: fixed;
+  bottom: 3em;
+
+  max-width: 935px;
+  width: 100%;
+}
+
+.bot-nav {
+  display: flex;
+  
+  list-style-type: none;
+}
+
+.bot-link a {
+  margin: 0.5em;
+
+  font-size: 0.75em;
+  color: #003569;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.copyright {
+  font-size: 0.75em;
+  color: #999999;
+  text-decoration: none;
+  text-transform: uppercase;
+}

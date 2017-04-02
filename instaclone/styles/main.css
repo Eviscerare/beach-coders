@@ -1,0 +1,150 @@
+@import 'footer.css';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+
+  background: #FAFAFA;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  max-width: 935px;
+  width: 100%;
+}
+
+.iphone {
+  width: 454px; height: 618px;
+  background-image: url('../images/iphone.png');
+}
+
+.instalogo {
+  margin-top: 1em;
+  background-image: url('../images/sprites.png');
+  width: 175px; height: 51px;
+  overflow: hidden;
+  text-indent: 110%;
+}
+
+.subheading {
+  margin: 0.5em 0;
+  font-size: 1em;
+  color: #999999;
+  text-align: center;
+}
+
+.or-divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.or {
+  color: #999999;
+  text-transform: uppercase;
+}
+
+.h-line {
+  margin: 20px;
+  width: 50%; height: 0;
+  border-top: 1px solid #999999;
+}
+
+.terms {
+  margin: 0.75em 0;
+  font-size: 0.85em;
+  color: #999999;
+  text-align: center;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  padding: 20px 35px;
+  border: 1px solid #E6E6E6;
+  background: #FFFFFF;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container {
+  display: none;
+}
+
+.login-swap {
+  display: none;
+}
+
+.swap-button {
+  color: #3897F0;
+  text-decoration: none;
+}
+
+.input {
+  margin: 0.25em 0;
+  padding: 0.5em;
+  border: 1px solid #E6E6E6;
+  border-radius: 3px;
+}
+
+.button {
+  margin: 0.75em 0;
+  width: 268px; height: 30px;
+  background: #3897F0;
+  border: none;
+  border-radius: 3px;
+  color: #FFFFFF;
+}
+
+.get-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 1.5em;
+}
+
+.store-icons {
+  margin: 1em;
+}
+
+.appstore {
+  width: 136px; height: 40px;
+}
+
+.playstore {
+  width: 114px; height: 40px;
+}
