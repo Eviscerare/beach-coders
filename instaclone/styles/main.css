@@ -149,3 +149,9 @@ body {
 .playstore {
   width: 114px; height: 40px;
 }
+
+@media screen and (max-width: 750px) {
+  .iphone {
+    display: none;
+  }
+}
