@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Roboto; }
+
+button {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 3px; }
+
+.start {
+  background: #4CAF50;
+  color: #FFFFFF; }
+
+.first {
+  display: none; }
+
+input {
+  padding: 4px;
+  border: 1px solid #4CAF50;
+  border-radius: 3px; }
+
+.result {
+  display: none;
+  padding: 5px 15px;
+  border: 2px solid #4CAF50; }
+
+/*# sourceMappingURL=main.css.map */
