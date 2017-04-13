@@ -1,3 +1,3 @@
 $().ready(() => {
-  $('#namebox').jvFloat();
+  $('input').jvFloat();
 });
